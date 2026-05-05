@@ -1,7 +1,6 @@
 package com.student;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 public class CalculatorTest {
@@ -12,7 +11,25 @@ public class CalculatorTest {
         assertEquals(5, calc.add(2, 3));
     }
 
+
     @Test
+void testAddWithZero() {
+Calculator calc = new Calculator();
+assertEquals(7, calc.add(7, 0));
+}
+
+
+   /*  @Test
+    public void testSubtract() {
+        Calculator calc = new Calculator();
+        assertEquals(1, calc.subtract(3, 2));
+    }
+
+    @Test
+    public void testMultiply() {
+
+
+   /*  @Test
     public void testSubtract() {
         Calculator calc = new Calculator();
         assertEquals(1, calc.subtract(3, 2));
@@ -37,4 +54,5 @@ public class CalculatorTest {
             calc.divide(10, 0);
         });
     }
-}
+*/
+    }

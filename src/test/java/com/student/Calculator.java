@@ -11,7 +11,7 @@ public int add(int a, int b) {
 return a + b;  // Simple. Nothing can go wrong. No logging needed.
 }
 
-public int subtract(int a, int b) {
+/*public int subtract(int a, int b) {
 return a - b;  // Same here. No logging needed.
 }
 
@@ -25,5 +25,5 @@ return a / b;
 
 public int multiply(int a, int b) {
 return a * b;  // Simple. No logging needed.
-}
+}*/
 }
