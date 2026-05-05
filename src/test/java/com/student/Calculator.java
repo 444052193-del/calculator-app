@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 LoggerFactory.getLogger(Calculator.class);
 
 public int add(int a, int b) {
-return a + b;  // Simple. Nothing can go wrong. No logging needed.
+return a - b;  // Simple. Nothing can go wrong. No logging needed.
 }
 
 /*public int subtract(int a, int b) {
